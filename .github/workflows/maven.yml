@@ -32,5 +32,5 @@ jobs:
     - name: Analyze with SonarCloud
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_TOKEN: ${{ secre.SONAR_TOKEN }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=duhanhasanain -Dsonar.projectKey=duhanhasanain_103022330080_duhanhasanain_praktikCICD
