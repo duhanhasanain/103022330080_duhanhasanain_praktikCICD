@@ -14,11 +14,11 @@
 
 <distributionManagement>
     <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/duhanhasanain/CI-CD</url>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/duhanhasanain/103022330080_duhanhasanain_praktikCICD</url>
     </repository>
-  </distributionManagement>
+</distributionManagement>
   
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
